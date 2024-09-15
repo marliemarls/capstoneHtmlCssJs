@@ -4,9 +4,10 @@
   font-family: 'poppins', sans-serif;
 }
 
+
 .trackDiv{
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   background: #a9a9a9;
   display: flex;
   align-items: center;
@@ -21,6 +22,7 @@
   background: #fff;
   color: #555;
   border-radius: 8px;
+    border: 1px solid black;
 }
 
 .track{
@@ -37,6 +39,7 @@
 
 .track div{
   flex: 1;
+
 }
 
 ul {
@@ -61,7 +64,6 @@ li a {
 .nextFmHeader {
   text-align: center;
 }
-
 .login,
 .signup {
   margin-left: auto;
@@ -103,7 +105,24 @@ li a:hover {
 }
 
 .hotArtistsHeader {
-  display: flex;
-  justify-content: right;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.artists{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.hotArtists{
+  display: flex;
+  flex-direction: column;
+}
+
+.newArtists{
+  display: flex;
+  flex-direction: column;
 }
