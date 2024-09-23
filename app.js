@@ -11,7 +11,7 @@ const wavesurfer1 = WaveSurfer.create({
     barRadius: 4,
   })
 
-  wavesurfer1.load('./audio/goodbye.mp3');
+  wavesurfer1.load('./audio/jesus_CHRIST.mp3');
 
   const togglePlayPause = () => {
     wavesurfer1.playPause();
@@ -26,27 +26,26 @@ const wavesurfer1 = WaveSurfer.create({
     playBtn.src = './img/play-button-icon-png-18919.png';
   });
   
-//   const wavesurfer2 = WaveSurfer.create({
-//     container: '#waveform2',
-//     waveColor: '#4F4A85',
-//     progressColor: '#383351',
-//     barWidth: 4,
-//     responsive: true,
-//     height: 90,
-//     barRadius: 4,
-//   })
+  const wavesurfer2 = WaveSurfer.create({
+    container: '#waveform2',
+    waveColor: '#4F4A85',
+    progressColor: '#383351',
+    barWidth: 4,
+    responsive: true,
+    height: 90,
+    barRadius: 4,
+});
 
-//   wavesurfer2.load('./audio/fsdfvs.wav');
+  // wavesurfer2.load('./audio/fsdfvs.wav');
 
-//   const togglePlayPause2 = () => {
-//     wavesurfer2.playPause();
-//     playBtn.src = wavesurfer2.isPlaying() 
-//       ? './img/pause.png'
-//       : './img/play-button-icon-png-18919.png';
-//   };
+  // const togglePlayPause2 = () => {
+  //   wavesurfer2.playPause();
+  //   playBtn.src = wavesurfer2.isPlaying() 
+  //     ? './img/pause.png'
+  //     : './img/play-button-icon-png-18919.png';
+  // };
 
-//   playBtn.addEventListener('click', togglePlayPause2);
+  // playBtn.addEventListener('click', togglePlayPause2);
 
-//   wavesurfer2.on('finish', () => {
-//     playBtn.src = './img/play-button-icon-png-18919.png';
-//   });
+  // wavesurfer2.on('finish', () => {
+  //   playBtn.src = './img/play-button-icon-png-18919.png';

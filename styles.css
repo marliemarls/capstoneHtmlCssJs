@@ -8,7 +8,7 @@
 .trackDiv{
   width: 100%;
   height: fit-content;
-  background: #a9a9a9;
+  /* background: #a9a9a9; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,17 +112,17 @@ li a:hover {
 }
 
 .artists{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+
+  /* flex-direction: row; */
+  /* width: fit-content; */
 }
 
 .hotArtists{
-  display: flex;
-  flex-direction: column;
+  float: left;
+  width: 50%;
 }
 
 .newArtists{
-  display: flex;
-  flex-direction: column;
+  float: right;
+  width: 50%;
 }
